@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tugas Kelompok - HTML Images, Links, Tables, and Forms</title>
+</head>
+<body>
+	<!-- HTML IMAGES -->
+	<!-- HTML Images alt Attribute, Width, and Height -->
+	<h1 align="center"><i>HTML Images alt Attribute, Width, and Height</i></h1>
+	<h3><i>JAPANESE FOOD</i></h3>
+	<h3 align="center">With Style</h3>
+	<center><img src="img/dorayaki.jpeg" alt="dorayaki" style="width:500px;height:370px;"></center>
+    <h3 align="center">Only Width</h3>
+    <center><img src="img/oyakodon.jpg" alt="oyakodon" width="500"></center>
+    <h3 align="center">With Width and Height</h3>
+    <center><img src="img/takoyaki.jpeg" alt="takoyaki" width="500" height="375"><br></center>
+
+    <!-- HTML in Another Server/Website -->
+    <h1 align="center"><i>HTML in Another Server/Website</i></h1>
+    <h3><i>ITALIAN FOOD</i></h3>
+    <img src="https://d12man5gwydfvl.cloudfront.net/wp-content/uploads/2017/06/Mau-Bisa-Bikin-Lasagna-Ini-Dia-Resep-Lasagna-Sederhana-Yang-Enak-Banget-dan-Bikin-Kamu-Ketagihan-Masak-Dirumah-940x667.jpg" alt="lasagna" width="410" height="355">
+    <img src="https://awsimages.detik.net.id/community/media/visual/2019/01/30/4ad68bf6-25aa-4314-9bcb-7f3a2978add3.jpeg?w=700&q=90" alt="carbonara" width="410" height="355">
+    <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-191112-risotto-rice-0151-landscape-pf-1574723947.jpg" alt="risotto" width="410" height="355"><br>
+
+    <!-- HTML in Another Folder -->
+    <h1 align="center"><i>HTML in Another Folder</i></h1>
+    <h3><i>INDONESIAN STREET FOOD</i></h3>
+    <img src="streetfood/pentol.jpg" alt="pentol" width="410" height="340">
+    <img src="streetfood/tahucrispy.jpg" alt="tahucrispy" width="410" height="340">
+    <img src="streetfood/martabak.jpg" alt="martabak telur" width="410" height="340"><br>
+
+    <!-- HTML Animated Images -->
+    <h1 align="center"><i>HTML Animated Images</i></h1>
+    <center><img src="img/eating-yummy.gif" alt="cartoon eating" width="250"><br></center>
+
+    <!-- HTML Floating -->
+    <h1 align="center"><i>HTML Floating</i></h1>
+    <p><img src="img/eating-yummy.gif" alt="cartoon mamam" style="float:right;width:60px;height:60px;">The image will float to the right of the text.</p><br>
+    <p><img src="img/eating-yummy.gif" alt="cartoon mamam" style="float:left;width:60px;height:60px;">The image will float to the left of the text.</p><br><br><br><br>
+
+    <!-- HTML Image Maps -->
+    <h1 align="center"><i>HTML Image Maps</i></h1>
+    <center><img src="img/PC lengkap.jpg" alt="elektronik" usemap="#elektronik"></center>
+
+    <map name="elektronik">
+    	<area shape="rect" coords="50,50,300,270" alt="elektronik" href="img/monitor PC.jpg">
+    	<area shape="poly" coords="90,20,350" alt="elektronik" href="img/keyboard PC.jpg">
+    	<area shape="default" coords="10,10,10" alt="elektronik" href="img/mouse PC.jpg">
+    	<area shape="circle" coords="34,44,270" alt="elektronik" href="img/monitor PC.jpg">
+    </map>
+
+    <!-- HTML Image Maps and JavaScript -->
+    <h1 align="center"><i>HTML Image Map and JavaScript</i></h1>
+    <center><img src="img/PC lengkap.jpg" alt="elektronik" usemap="#elektronik"></center>
+
+    <map name="elektronik">
+    	<area shape="circle" coords="34,44,270" href="img/PC lengkap.jpg" onclick="myFunction()">
+    </map>
+
+    <script>
+    	function myFunction(){
+    		alert("Kamu klik Monitor!");
+    	}
+    </script>
+
+
+    <!-- HTML HYPERLINKS -->
+    <!-- HTML Image As Link -->
+    <h1 align="center"><i>HTML Image As Link</i></h1>
+    <center><a target="blank" href="https://www.kompas.com/food/read/2021/10/20/170400475/10-restoran-cepat-saji-terkenal-di-indonesia-harga-menu-mulai-rp-8000?page=all"><img src="img/makankuy.png" alt="image makanan to link" width="300"></a></center><br>
+
+    <!-- HTML Target -->
+    <h1 align="center"><i>HTML Links - The Target Attribute</i></h1>
+    <p align="center">With _blank</p>
+    <center><img src="img/instagram.png" width="15"><a style="text-decoration: none;" target="_blank" href="https://www.instagram.com/menantea.toko/?hl=en">  Visit Instagram FnB Menantea</a></center>
+    <p align="center">With _self</p>
+    <center><img src="img/instagram.png" width="15"><a style="text-decoration: none;" target="_self" href="https://www.instagram.com/menantea.toko/?hl=en">  Visit Instagram FnB Menantea</a></center>
+    <p align="center">With _parent</p>
+    <center><img src="img/instagram.png" width="15"><a style="text-decoration: none;" target="_parent" href="https://www.instagram.com/menantea.toko/?hl=en">  Visit Instagram FnB Menantea</a></center>
+    	<p align="center">With _top</p>
+    <center><img src="img/instagram.png" width="15"><a style="text-decoration: none;" target="_top" href="https://www.instagram.com/menantea.toko/?hl=en">  Visit Instagram FnB Menantea</a></center>
+    <p align="center">With _title</p>
+    <center><img src="img/instagram.png" width="15"><a style="text-decoration: none;" target="_blank" href="https://www.instagram.com/ayamgedebuk/?hl=en" title="Go to Ayam Gedebuk Instagram"> Visit Instagram FnB Ayam Gedebuk</a></center><br>
+
+    <!-- HTML More link in links -->
+    <h1 align="center"><i>HTML More Link in HTML Links</i></h1>
+    <p align="center">Untuk Pemesanan Hubungi :</p>
+    <p align="center">With Button -> <button onclick="document.location='https://www.instagram.com/arungg_samudra/'">Click here to contact Arung</button></p>
+    <center><a href="https://www.w3schools.com/html/default.asp" title="Go to w3schools">Visit our HTML Tutorial</a></center>
+
+
+	<!-- HTML TABLES -->
+	<h1 align="center"><i>HTML Tables - Normal</i></h1>
+	<table align="center">
+		<tr>
+			<th>No</th>
+			<th>Nama Makanan</th>
+			<th>Harga</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>Sushi</td>
+			<td>Rp. 30.000</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>Sashimi</td>
+			<td>Rp. 105.000</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>Onigiri</td>
+			<td>Rp. 7.000</td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>Dorayaki</td>
+			<td>Rp. 17.000</td>
+		</tr>
+		<tr>
+			<td>5</td>
+			<td>Takoyaki</td>
+			<td>Rp. 43.000</td>
+		</tr>
+		<tr>
+			<td>6</td>
+			<td>Mochi</td>
+			<td>Rp. 75.000</td>
+		</tr>
+		<tr>
+			<td>7</td>
+			<td>Yakitori</td>
+			<td>Rp. 12.000</td>
+		</tr>
+		<tr>
+			<td>8</td>
+			<td>Okonomiyaki</td>
+			<td>Rp. 40.000</td>
+		</tr>
+		<tr>
+			<td>9</td>
+			<td>Tonkatsu</td>
+			<td>Rp. 130.000</td>
+		</tr>
+		<tr>
+			<td>10</td>
+			<td>Ramen</td>
+			<td>Rp. 7000</td>
+		</tr>
+	</table>
+	<br>
+
+	<!-- HTML Tables Edit -->
+	<h1 align="center"><i>HTML Tables - Edited</i></h1>
+	<table align="center" border="1" cellpadding="10">
+		<tr>
+			<th bgcolor="#7FFF00">No</th>
+			<th bgcolor="#7FFF00">Nama Makanan</th>
+			<th bgcolor="#7FFF00">Harga</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>Sushi</td>
+			<td>Rp. 30.000</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>Sashimi</td>
+			<td>Rp. 105.000</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>Onigiri</td>
+			<td>Rp. 7000</td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>Dorayaki</td>
+			<td>Rp. 17.000</td>
+		</tr>
+		<tr>
+			<td>5</td>
+			<td>Takoyaki</td>
+			<td>Rp. 43.000</td>
+		</tr>
+		<tr>
+			<td>6</td>
+			<td>Mochi</td>
+			<td>Rp. 75.000</td>
+		</tr>
+		<tr>
+			<td>7</td>
+			<td>Yakitori</td>
+			<td>Rp. 12.000</td>
+		</tr>
+		<tr>
+			<td>8</td>
+			<td>Okonomiyaki</td>
+			<td>Rp. 40.000</td>
+		</tr>
+		<tr>
+			<td>9</td>
+			<td>Tonkatsu</td>
+			<td>Rp. 130.000</td>
+		</tr>
+		<tr>
+			<td>10</td>
+			<td>Ramen</td>
+			<td>Rp. 7000</td>
+		</tr>
+	</table>
+	<br>
+
+
+	<!-- HTML FORMS -->
+	<h1 align="center"><i>HTML Forms</i></h1>
+
+	<!-- CheckBox Type -->
+	<h2 align="center"><i>CheckBox Type</i></h2>
+	<form align="center">
+		<label for="nama">Nama</label><br>
+		<input type="text" id="form" name="nama"><br>
+		<label for="Alamat">Alamat</label><br>
+		<input type="text" id="form" name="alamat"><br>
+		<label for="nohp">No Handphone</label><br>
+		<input type="text" id="form" name="nohp"><br>
+
+		<p>Silakan Memilih Menu Makanan</p>
+		<input type="checkbox" id="food1" name="food1" value="Sushi">
+		<label for="food1">Shusi</label><br>
+		<input type="checkbox" id="food2" name="food2" value="Sashimi">
+		<label for="food2">Sashimi</label><br>
+		<input type="checkbox" id="food3" name="food3" value="Dorayaki">
+		<label for="food3">Dorayaki</label><br>
+		<input type="checkbox" id="food4" name="food4" value="Takoyaki">
+		<label for="food4">Takoyaki</label><br>
+		<input type="checkbox" id="food5" name="food5" value="Mochi">
+		<label for="food5">Mochi</label><br>
+		<input type="checkbox" id="food6" name="food6" value="Yakitori">
+		<label for="food6">Yakitori</label><br>
+		<input type="checkbox" id="food7" name="food7" value="Okonomiyaki">
+		<label for="food7">Okonomiyaki</label><br>
+		<input type="checkbox" id="food8" name="food8" value="Tonkatsu">
+		<label for="food8">Tonkatsu</label><br>
+		<input type="checkbox" id="food9" name="food9" value="Ramen">
+		<label for="food9">Ramen</label><br>
+		<input type="checkbox" id="food10" name="food10" value="Onigiri">
+		<label for="food10">Onigiri</label><br><br>
+		<label for="jpesan">Jumlah Pesanan</label><br>
+		<input type="text" id="form" name="jpesan"><br>
+		<label for="tpesan">Total Bayar</label><br>
+		<input type="text" id="form" name="tpesan"><br><br>
+		<input type="submit" value="Submit"><br><br><br>
+	</form>
+
+	<!-- Radio Type -->
+	<h2 align="center"><i>Radio Type</i></h2>
+	<form align="center">
+		<label for="nama">Nama</label><br>
+		<input type="text" id="form" name="nama"><br>
+		<label for="Alamat">Alamat</label><br>
+		<input type="text" id="form" name="alamat"><br>
+		<label for="nohp">No Handphone</label><br>
+		<input type="text" id="form" name="nohp"><br>
+
+		<p>Silakan Memilih Menu Makanan</p>
+		<input type="Radio" id="food1" name="food1" value="Sushi">
+		<label for="food1">Shusi</label><br>
+		<input type="Radio" id="food2" name="food2" value="Sashimi">
+		<label for="food2">Sashimi</label><br>
+		<input type="Radio" id="food3" name="food3" value="Dorayaki">
+		<label for="food3">Dorayaki</label><br>
+		<input type="Radio" id="food4" name="food4" value="Takoyaki">
+		<label for="food4">Takoyaki</label><br>
+		<input type="Radio" id="food5" name="food5" value="Mochi">
+		<label for="food5">Mochi</label><br>
+		<input type="Radio" id="food6" name="food6" value="Yakitori">
+		<label for="food6">Yakitori</label><br>
+		<input type="Radio" id="food7" name="food7" value="Okonomiyaki">
+		<label for="food7">Okonomiyaki</label><br>
+		<input type="Radio" id="food8" name="food8" value="Tonkatsu">
+		<label for="food8">Tonkatsu</label><br>
+		<input type="Radio" id="food9" name="food9" value="Ramen">
+		<label for="food9">Ramen</label><br>
+		<input type="Radio" id="food10" name="food10" value="Onigiri">
+		<label for="food10">Onigiri</label><br><br>
+		<label for="jpesan">Jumlah Pesanan</label><br>
+		<input type="text" id="form" name="jpesan"><br>
+		<label for="tpesan">Total Bayar</label><br>
+		<input type="text" id="form" name="tpesan"><br><br>
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>
