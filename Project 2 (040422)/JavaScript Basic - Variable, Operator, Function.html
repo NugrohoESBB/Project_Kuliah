@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tugas Kelompok - Variable, Operator, function JavaScript</title>
+</head>
+<body>
+	<center><h2><i>Kelompok 1</i></h2></center>
+
+
+	<!-- Embed Code -->
+	<script>
+		alert("Halo Semua, Selamat Datang Di Kelompok 1");
+		document.write("Perkenalkan kami dari kelompok 1 yang beranggotakan : "+"<br>");
+		document.write("1. Nugroho Eko Saputra Batubara"+"<br>");
+		document.write("2. Fawwazke Al Rahma Margita"+"<br>");
+		document.write("3. Zefanya Justhin Leithenu"+"<br>");
+		document.write("4. Annisa Pardila"+"<br>");
+		document.write("5. Muhamad Arung Samudra"+"<br><br>");
+	</script>
+
+
+	<!-- Inline Code -->
+	<a href="#" onclick="sayHello()">Klik ya</a><br><br>
+
+
+	<!-- Fungsi IF ELSE innerHTML -->
+	<h2> Fungsi IF ElSE innerHTML</h2>
+	<p>Masukkan angka</p>
+	<input id="nomor" value="10"/>
+	<button onclick="bebas()">coba</button>
+	<p id="coba"></p>
+
+
+	<!-- Operator NOT innerHTML -->
+	<p id="not"></p>
+
+
+	<!-- Operator AND OR NOT -->
+	<script>
+		// Operator AND
+		var angka1 = 2;
+		var angka2 = 3;
+		if (angka1 == 2 && angka2 == 2){
+			console.log("sama");
+		} else {
+			console.log("tidak sama");
+		}
+
+		// Operator OR
+		var num1 = 2;
+		var num2 = 2;
+		if (num1 == 2 || num2 == 2){
+			console.log("mirip");
+		} else {
+			console.log("tidak mirip");
+		}
+
+		// Operator NOT innerHTML
+		var nmb1 = 4;
+		var nmb2 = 3;
+		document.getElementById("not").innerHTML = "<h2>" + "Operator NOT innerHTML" + "<br><h3>" + !(nmb1 > nmb2) + "<br>" + !(nmb1 === nmb2);
+	</script>
+
+
+	<!-- fungsi array dengan innerHTML (program input barang)-->
+	<h2>Contoh Program Fungsi</h2>
+	<fieldset>
+		<legend>Input Form</legend>
+		<input type="text" name="barang" placeholder="Input nama barang...."/>
+		<input type="button" onclick="addBarang()" value="Tambah"/>
+	</fieldset>
+
+	<div>
+		<ul id="list-barang">
+		</ul>
+	</div>
+
+
+	<!-- Tabel dinamis menggunakan looping dengan innerHTML -->
+	<h2>Tabel Dinamis Menggunakan Looping innerHTML</h2>
+	<table border="1" id="content_table">
+		<tr>
+			<td>No</td>
+			<td>Nama</td>
+			<td>Random number</td>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>Nama1</td>
+			<td>100</td>
+		</tr>
+	</table>
+
+
+	<!-- Fungsi return innerHTML -->
+	<h2>Fungsi Return innerHTML</h2>
+	<p id="percobaan"></p>
+
+
+	<!-- Eksternal Code -->
+	<script src="js project.js"></script>
+
+</body>
+</html>
